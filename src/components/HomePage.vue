@@ -37,40 +37,16 @@
 </template>
 
 <script>
+import NfrttLogo from '@/components/NfrttLogo';
+
 export default {
   name: 'HomePage',
-  data() {
-    return {
-      msg: 'Welcome to da NFRTT',
-    };
-  },
+  components: { NfrttLogo },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-body {
-  color: #262828;
-  font-family: 'Roboto Condensed', sans-serif;
-  background-color: #f1f1f1;
-  background-image: url('../assets/asfalt-dark.png');
-}
-
-h1 {
-  font-size: 48px;
-}
-
-h2 {
-  font-size: 36px;
-}
-
-h3 {
-  font-size: 28px;
-}
-
-h4 {
-  font-size: 20px;
-}
 
 .headline {
   font-family: 'Bungee', cursive;
