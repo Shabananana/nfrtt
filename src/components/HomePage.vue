@@ -1,8 +1,8 @@
 <template>
   <div>
     <header>
-      <div id="nfrtt-logo" class="nfrtt-logo-container">
-        <NfrttLogo ></NfrttLogo>
+      <div class="nfrtt-logo-container">
+        <NfrttLogo />
       </div>
       <nav class="navigation">
         <ul>

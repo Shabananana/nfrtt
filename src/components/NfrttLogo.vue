@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="nfrtt-logo">
     <div class="logo-shape">
       <div class="top-triangles">
         <div class="triangle-one" />
@@ -22,12 +22,7 @@
 
 <script>
 export default {
-  name: 'NfrttLogo',
-  data() {
-    return {
-      msg: 'Welcome to da NFRTT',
-    };
-  },
+  name: 'Logo',
 };
 </script>
 
