@@ -1,47 +1,19 @@
 <template>
   <div>
-    <header>
-      <div class="nfrtt-logo-container">
-        <NfrttLogo />
-      </div>
-      <nav class="navigation">
-        <ul>
-          <li>
-            <router-link to="/helloworld">Go to Bar</router-link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <div class="content">
-        <h1 class="headline">This is a headline</h1>
-      </div>
-    </main>
-    <footer>
-      <ul>
-        <li>
-          <router-link to="/helloworld">Hello World!</router-link>
-        </li>
-        <li>
-          <router-link to="/helloworld">Hello World!</router-link>
-        </li>
-        <li>
-          <router-link to="/helloworld">Hello World!</router-link>
-        </li>
-        <li>
-          <router-link to="/helloworld">Hello World!</router-link>
-        </li>
-      </ul>
-    </footer>
+    <h1 class="headline">Welcome to the test homepage group!</h1>
+    <EmblemPortrait/>
+    <EmblemPortrait>
+      <p>This portrait emblem with some actual content.</p>
+    </EmblemPortrait>
   </div>
 </template>
 
 <script>
-import NfrttLogo from '@/components/NfrttLogo';
+import EmblemPortrait from '@/components/EmblemPortrait';
 
 export default {
   name: 'HomePage',
-  components: { NfrttLogo },
+  components: { EmblemPortrait },
 };
 </script>
 
@@ -52,12 +24,4 @@ export default {
   font-family: 'Bungee', cursive;
 }
 
-header, footer {
-  width: 100%;
-}
-
-.main {
-  width: 80%;
-  margin: 0 auto;
-}
 </style>
